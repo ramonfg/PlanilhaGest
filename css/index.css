@@ -1,0 +1,21 @@
+.indexparagraph {
+  text-align: center;
+}
+
+.aadm {
+  text-decoration: none;
+}
+
+.button-admin {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 235, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 6.25px 20px;
+}
+.button-admin:active {
+  color: rgb(255, 235, 8);
+}

@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(29,29,29);
+}
+
+/*HEADER*/
+.nav-header-main {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+.header-logo {
+  float: left;
+}
+
+.nav-header-main ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+
+.nav-header-main ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  color: rgb(29,29,29);
+  padding: 0 20px;
+}
+.nav-header-main ul li a:hover {
+  color: rgb(255, 235, 8);
+}
+
+.form-logout {
+  float: right;
+  padding: 12.5px 0;
+}
+
+.form-logout button {
+  background-color: rgb(29,29,29);
+  color: rgb(255, 235, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+  margin: 0 10px;
+}
+.form-logout button:hover {
+  cursor: pointer;
+}
+
+#lang {
+  float: right;
+  margin: 15px 5px;
+  padding: 5px;
+}
+
+/*FORM LOGIN AND SIGNUP*/
+h1 {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.wrapper-main {
+  background-color: #fff;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 5px;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.form-signup {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-signup input {
+  display: block;
+  width: 200px;
+  line-height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px auto;
+}
+
+.form-signup button {
+  display: block;
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 235, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 6.25px 20px;
+  margin: 10px auto;
+}
+.form-signup button:hover {
+  cursor: pointer;
+}
+
+.form-signup .signup-button {
+  width: 100%;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.signuperror {
+  text-align: center;
+  color: red;
+}
+
+.signupsuccess {
+  text-align: center;
+  color: green;
+}
+
+.redBorder{
+  border: 2px solid red !important;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #333;,
+  color: rgb(255, 235, 8);
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+footer ul {
+  padding: 10px 10px;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 5px;
+  color: #fff;
+}
+
+footer ul li {
+  list-style: none;
+  color: #fff;
+  height: 25px;
+}
+
+footer ul li p {
+  line-height: 25px;
+  vertical-align: middle;
+  padding-left: 35px;
+}
+
+footer ul li img {
+  height: 25px;
+  float: left;
+}

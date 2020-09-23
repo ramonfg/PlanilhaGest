@@ -1,0 +1,105 @@
+.row-register {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.box-register {
+  float: left;
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+}
+
+.label-register {
+  background-color: rgb(29,29,29);
+  color: rgb(255, 235, 8);
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 50px;
+}
+
+.box-register-input {
+    display: block;
+    width: 30%;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-register {
+  display: block;
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 235, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 6.25px 20px;
+  margin: 10px auto;
+}
+.button-register:hover {
+  cursor: pointer;
+}
+
+.unity p{
+  display: block;
+  width: 30%;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.date {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dateday, .datemonth, .dateyear {
+  border: 2px solid white;
+  display: inline-block;
+  width: 10%;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 3% 5%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dateday {
+  margin-left: 8%;
+}
+
+.dateyear {
+  width: 20%;
+}
+
+.datebarra {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.radiounity-div {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.radiounity-label {
+  vertical-align: middle;
+}
+
+.radiounity-input {
+  cursor: pointer;
+}

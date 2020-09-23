@@ -1,0 +1,86 @@
+.form-adm  {
+  /* display: inline-block; */
+  margin: 0 auto;
+  width: 350px;
+}
+
+.form-adm form {
+
+}
+
+.form-adm form input {
+  text-align: center;
+  line-height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px auto;
+}
+
+#addcredits-email {
+  width: 150px;
+}
+
+#addcredits-months {
+  width: 50px;
+}
+
+.form-adm form button {
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 235, 8);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  line-height: 20px;
+}
+.form-adm form button:hover {
+  cursor: pointer;
+}
+
+.add-credit-success {
+  color: green;
+  text-align: center;
+}
+
+
+.form-filter-credits {
+  background-color: #222;
+  width: 30%;
+  margin: 0 0 0 20px;
+  text-align: center;
+  float: left;
+  border-radius: 5px;
+}
+
+.form-filter-credits input {
+  border: 2px solid white;
+  display: inline-block;
+  background-color: #eee;
+  float: left;
+  line-height: 30px;
+  border-radius: 5px;
+  padding: 2px 3px;
+  width: 28%;
+  margin: 10px 2%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-filter-credits button {
+  float: left;
+  display: inline-block;
+  margin: 10px 1%;
+  padding: 0;
+  background-color: rgb(255, 235, 8);
+  line-height: 33px;
+  width: 25%;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+  overflow: hidden; 
+}
+.form-filter-credits button:hover {
+  cursor: pointer;
+}
