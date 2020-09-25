@@ -11,7 +11,7 @@
 
   }
 
-  if ($page != 'index' && ($expired || !isset($_SESSION['id']))) {
+  if (($page != 'index' && $page != 'signup') && ($expired || !isset($_SESSION['id']))) {
     header("Location: index.php");
     exit();
   }
@@ -65,15 +65,17 @@
         </ul>
         <select name="lang" id="lang">
           <option value="pt-br"
-          <?php if($_SESSION['lang'] == 'pt-br') echo 'selected="selected"'; ?>>PT</option>
+          <?php if($_SESSION['lang'] == 'pt-br') echo 'selected="selected"'; ?>>PT</option><!--<img src="img/pt-br.png" alt="">-->
           <option value="en-us"
           <?php if($_SESSION['lang'] == 'en-us') echo 'selected="selected"'; ?>>EN</option>
+          <option value="sp-sp"
+          <?php if($_SESSION['lang'] == 'sp-sp') echo 'selected="selected"'; ?>>SP</option>
         </select>
         <?php
           if (isset($_SESSION['id'])) {
             ?>
             <form class="form-logout" action="includes/logout.inc.php" method="post">
-              <button type="submit" name="logout-submit"><?php echo strtoupper($lang_logout)?></button>
+              <button type="submit" name="logout-submit"><?php echo mb_strtoupper($lang_logout)?></button>
             </form>
             <?php
           }
